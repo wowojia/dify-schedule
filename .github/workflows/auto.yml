@@ -2,7 +2,7 @@ name: Auto
 
 on:
   schedule:
-    - cron: "0 2 * * 5" # 北京时间每周五上午10点
+    - cron: "5 15 * * *"  # 每天 北京时间 23:05（= 15:05 UTC）
   workflow_dispatch:
 
 env:
