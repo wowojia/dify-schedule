@@ -62,7 +62,7 @@ async function run(args) {
     const message = messageList.join(`\n${"-".repeat(15)}\n`);
     Notify.pushMessage({
       //title: "Dify工作流定时助手",
-      content: message,
+      //content: message,
       msgtype: "text"
     });
   }
